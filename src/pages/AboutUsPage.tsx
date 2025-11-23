@@ -4,13 +4,13 @@ import Container from "@/components/Container";
 const testimonials = [
   {
     quote: "Aispire helped me get through 5 real interviews with confidence!",
-    name: "Jane D.",
-    role: "Software Engineer",
+    name: "Firoz Nadaf.",
+    role: "student",
   },
   {
     quote: "The AI feedback is super insightful and helped me improve fast.",
-    name: "Mark T.",
-    role: "Product Manager",
+    name: "Pankaj Patil.",
+    role: "student",
   },
 ];
 
@@ -69,21 +69,21 @@ const AboutUsPage = () => {
         {/* Team */}
         <section className="mb-16">
   <h2 className="text-2xl font-semibold text-neutral-900 mb-6 text-center">
-    Meet the Team
+    Team and Proffessor
   </h2>
   <div className="flex flex-wrap justify-center gap-10">
     <div className="max-w-xs text-center">
-      <img src="/logo1.png" alt="Santosh Khot" className="mx-auto rounded-md w-32 h-32 object-cover mb-4" />
-      <h3 className="text-lg font-semibold text-neutral-900">Suneel Shinde</h3>
+      <img src="/team/profile.jpg" alt="suneel shinde" className="mx-auto rounded-md w-32 h-32 object-cover mb-4" />
+      <h3 className="text-lg font-semibold text-neutral-900">prof.  Suneel Shinde</h3>
       <p className="text-neutral-700">Head of Department</p>
     </div>
     <div className="max-w-xs text-center">
-      <img src="/logo1.png" alt="Suneel Shinde" className="mx-auto rounded-md w-32 h-32 object-cover mb-4" />
-      <h3 className="text-lg font-semibold text-neutral-900">Santosh Khot</h3>
+      <img src="/team/profile.jpg" alt="Suneel Shinde" className="mx-auto rounded-md w-32 h-32 object-cover mb-4" />
+      <h3 className="text-lg font-semibold text-neutral-900"> prof.  Suneel Shinde</h3>
       <p className="text-neutral-700">Proffessor And Guide</p>
     </div>
     <div className="max-w-xs text-center">
-      <img src="/team/mine1.jpeg" alt="Amit Badiger" className="mx-auto rounded-md w-32 h-32 object-cover mb-4" />
+      <img src="/team/mine2.jpeg" alt="Amit Badiger" className="mx-auto rounded-md w-32 h-32 object-cover mb-4" />
       <h3 className="text-lg font-semibold text-neutral-900">Amit Badiger</h3>
       <p className="text-neutral-700">Creator</p>
     </div>

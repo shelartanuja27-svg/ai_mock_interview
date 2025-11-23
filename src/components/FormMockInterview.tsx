@@ -217,6 +217,9 @@ const FormMockInterview = ({initialData}:FormMockInterviewprops) => {
                     disabled={loading}
                     placeholder="eg:- Full Stack Developer"
                     {...field}
+                    pattern="^[A-Za-z]+$"
+                    title="only latters are allowed"
+                    
                     // value={field.value || ""}
                   />
                 </FormControl>
